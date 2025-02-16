@@ -14,7 +14,7 @@
   align-items: center;
 }
 h3 {
-  background: linear-gradient(45deg, rgb(77, 112, 254), rgb(211, 176, 22));
+  background: linear-gradient(45deg， rgb(77， 112， 254)， rgb(211， 176， 22));
   font-size: 2rem;
   -webkit-background-clip: text; 
   background-clip: text; 
@@ -59,7 +59,7 @@ h3 {
   position: absolute;
   display: block;
   left:50%;
-  transform: translateX(-45px);
+  transform: translateX(-43px);
   }
 /* 爱心样式 */
 .heart {
@@ -71,7 +71,7 @@ h3 {
       animation: heartFly 3s linear forwards;
   }
 
-  .heart::before,
+  .heart::before，
   .heart::after {
       content: '';
       position: absolute;
